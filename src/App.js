@@ -33,6 +33,7 @@ class App extends Component {
   }
 
   toggleAuthForms(Show_Hide) {
+        this.setState({ authForms: Show_Hide });
   }
 
   logout() {
